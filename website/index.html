@@ -1,4 +1,9 @@
 <!doctype html>
+<style>
+    html {
+        height: 1000px;
+    }
+</style>
 <html lang="en">
 
 <head>
@@ -13,29 +18,109 @@
     <title>Homework 2</title>
 </head>
 
-<body>
-    <div class="container">
-       
+<style>
+    body {
+        margin-top: 180px;
+    }
+</style>
 
-        <div style="height: 100px; background-color: rgba(255,0,0,0.1);">
-                <div class="h-25 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 25%</div>
-                <div class="mh-50 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 50%</div>
-                <div class="h-75 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 75%</div>
-                <div class="h-100 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 100%</div>
+
+
+<body>
+    <header class="fixed-top">
+        <div class="container bg-light">
+
+            <h2 class="text-primary text-center">IS445 Homework and Project</h2>
+            <nav class="navbar navbar-light bg-light navbar-expand-md">
+                <a href="#" class="navbar-brand">Jordan Molina</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myId">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="myId">
+
+                    <div class="navbar-nav">
+                        <a href="" class="nav-item nav-link text-dark">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="" class="nav-item nav-link">Bootstrap</a>
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle text-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Future
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Homework 3</a>
+                                <a class="dropdown-item" href="#">Homework 4</a>
+                                <a class="dropdown-item" href="#">Homework 5</a>
+                                <a class="dropdown-item" href="#">Homework 6</a>
+                            </div>
+                        </div>
+                        <a href="" class="nav-item nav-link">Project</a>
+                        <form action="" class="form-inline">
+                            <input type="text" class="form-control" type="search" placeholder="Search">
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <h5>Left Aside</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptatibus reiciendis architecto suscipit,
+                    aliquam itaque! Laboriosam mollitia temporibus voluptas. Nobis maxime exercitationem beatae commodi consequuntur
+                    iste vitae magnam reiciendis aperiam.</p>
+            </div>
+            <div class="col-7 bg-light">
+                <h3 class="text-info text-center">Welcome to My Site</h3>
+                <h4 class="text-primary text-center">I am a Volleyball Player</h4>
+                <br>
+                <p>This is a site that contains all my IS 445 homework and project.</p>
+            </div>
+            <div class="col-2">
+                <h5>Right Aside</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus nostrum aut excepturi laudantium sunt
+                    recusandae quam adipisci repellat animi, amet officia quidem officiis illum commodi minus, omnis exercitationem
+                    libero deleniti!</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-3"></div>
+                <div class="col-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nam quod obcaecati voluptate eligendi quia
+                    nemo repudiandae harum. Quidem corporis quia ab odit animi commodi vero excepturi dicta quos sed.
+                </div>
+                <div class="col-2"></div>
             </div>
 
 
-    </div>
+        </div>
+        <style>
+            footer {
+                padding-top: 30px;
+            }
+        </style>
+        <footer>
+            <div class="container bg-light">
+                <div class="row justify-content-center">
+                    <p class="text-center">
+                        1250 Bellflower Boulevard Long Beach, California 90840 562.985.4111
+                    </p>
 
+                </div>
+            </div>
+        </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
